@@ -286,11 +286,33 @@ body {
 }
 
 .fs {
-    margin-left: 1.875rem;
+    margin-left: 3.875rem;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* height: 0; */
+}
+
+.fs iframe {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 50vh;
 }
 
 .sc {
     margin-left: 7.5rem;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* height: 0; */
+}
+
+.sc iframe {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 50vh;
 }
 
 .photos {
