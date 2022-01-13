@@ -4,7 +4,7 @@ $(document).ready(function() {
         // if (scroll > 50) {
         //     $("body").css("background", "rgba(0,0,0,0.5");
 
-        if (scroll > 50) {
+        if (scroll > 200) {
             $("body").addClass('chain');
 
 
