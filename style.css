@@ -433,12 +433,13 @@ input[type=submit]:hover {
 .last h2 {
     font-size: 1.25rem;
     color: black;
-    margin-left: 2.25rem;
+    margin-left: 25rem;
 }
 
 .last input[type=text] {
     padding-left: 3.125rem;
     padding-right: 3.125rem;
+    margin-left: 25rem;
 }
 
 .last button {
@@ -462,6 +463,7 @@ input[type=submit]:hover {
     width: 3.125rem;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 10rem;
 }
 
 
@@ -512,7 +514,7 @@ input[type=submit]:hover {
 
 .social {
     margin-bottom: 6.25rem;
-    margin-left: 31.25rem;
+    margin-left: 25rem;
 }
 
 .contact input[type=textarea] {
