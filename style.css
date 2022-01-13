@@ -17,7 +17,7 @@
 /* background-attachment: fixed; */
 
 
-/* } */
+/* }  */
 
 .chain {
     background: linear-gradient(135deg, var(--primary), var(--secondary)), url(images/bb.png)no-repeat center center / cover;
@@ -25,9 +25,78 @@
 }
 
 body {
-    background: url(images/nikon1.webp)no-repeat center center /cover;
-    background-attachment: fixed;
+    background: url(images/photo-1503499746616-a6d202989535.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    /* animation: change 30s infinite ease-in-out; */
 }
+
+
+/* body { */
+
+
+/* display: flex; */
+
+
+/* width: 100vw;
+    height: 100vh; */
+
+
+/* overflow: hidden; */
+
+
+/* position: relative; */
+
+
+/* background-image: url(images/food1.jpeg); */
+
+
+/* background-position: center; */
+
+
+/* background-repeat: no-repeat; */
+
+
+/* background-size: cover; */
+
+
+/* text-align: center; */
+
+
+/* justify-content: center; */
+
+
+/* animation: change 30s infinite ease-in-out; */
+
+
+/* } */
+
+
+/* .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: white;
+} */
+
+
+/* @keyframes change {
+    0% {
+        background-image: url(images/bb.png);
+    }
+    50% {
+        background-image: url(images/nikon1.webp);
+    }
+    100% {
+        background-image: url(images/nikoh.webp);
+    }
+} */
 
 #menu {
     width: 2.188rem;
@@ -40,6 +109,7 @@ body {
     margin-right: 2.875rem;
     margin-top: 2.875rem;
     transition: 0.4s ease;
+    z-index: 2000;
 }
 
 .bar {
@@ -49,6 +119,7 @@ body {
     display: block;
     border-radius: 0.313rem;
     transition: 0.3s ease;
+    z-index: 2000;
 }
 
 #bar1 {
@@ -64,16 +135,16 @@ body {
     transform: translateY(4px);
 }
 
-.nav li a {
+.sav li a {
     color: white;
     text-decoration: none;
 }
 
-.nav li a:hover {
+.sav li a:hover {
     border: 1px solid white;
 }
 
-.nav li {
+.sav li {
     list-style: none;
     margin-top: 0.625rem;
     padding: 0.75rem 0;
@@ -96,7 +167,7 @@ body {
     opacity: 0;
 }
 
-.nav {
+.sav {
     padding: 0;
     margin-top: 0.625rem;
     transition: 1s ease;
@@ -110,10 +181,10 @@ body {
     width: 100%;
     /* margin: 0; */
     position: absolute;
-    font-size: 1.875rem;
+    font-size: 1.9rem;
     top: 0;
     left: 0;
-    z-index: -100;
+    z-index: 1000;
     /* width: 20%; */
     display: flex;
     flex-direction: column;
@@ -157,6 +228,7 @@ body {
 .first {
     margin-top: 46vh;
     color: white;
+    z-index: 1;
 }
 
 .first audio {
