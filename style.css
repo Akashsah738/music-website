@@ -22,17 +22,18 @@
 .chain {
     background: linear-gradient(135deg, var(--primary), var(--secondary)), url(images/bb.png)no-repeat center center / cover;
     background-attachment: fixed;
+    transition: 0.3s ease-in;
 }
 
 body {
     overflow-x: hidden;
-    background: url(images/ok.jpg);
+    background: url(images/blue.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     /* animation: change 30s infinite ease-in-out; */
 }
 
@@ -288,7 +289,7 @@ body {
 .fs {
     margin-left: 3.875rem;
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 30.25%;
     /* height: 0; */
 }
 
@@ -298,12 +299,13 @@ body {
     left: 0;
     width: 40vw;
     height: 50vh;
+    /* z-index: 1000; */
 }
 
 .sc {
     margin-left: 7.5rem;
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 30.25%;
     /* height: 0; */
 }
 
@@ -317,7 +319,7 @@ body {
 
 .photos {
     display: flex;
-    margin-top: 3.125rem;
+    /* margin-top: 3.125rem; */
 }
 
 .photos img {
