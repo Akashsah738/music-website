@@ -797,7 +797,7 @@ input[type=submit]:hover {
         margin-top: 30vh;
     }
     .record {
-        top: 122vh;
+        top: 88vh;
         position: fixed;
     }
     .first audio {
@@ -807,8 +807,8 @@ input[type=submit]:hover {
         /* height: 100vh; */
         /* width: 100%; */
         /* margin-left: -10px; */
-        width: 80vw;
-        margin-left: -56px;
+        width: 100vw;
+        margin-left: -88px;
     }
     .logo {
         margin-top: 0.25rem;
@@ -888,11 +888,19 @@ input[type=submit]:hover {
     }
     .last {
         margin-bottom: 6.25rem;
-        margin-left: 1rem;
+        margin-left: 5rem;
     }
     .last h2 {
         font-size: 1.25rem;
         color: black;
         margin-left: 1.25rem;
+    }
+    .last input[type=text] {
+        padding-left: 3.125rem;
+        padding-right: 3.125rem;
+        margin-left: 3rem;
+    }
+    .last button {
+        margin-left: 3rem;
     }
 }
