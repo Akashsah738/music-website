@@ -759,6 +759,16 @@
                             .last button {
                                 margin-left: 3rem;
                             }
+                            .fs iframe {
+                                width: 100%;
+                                height: 26vh;
+                                margin-left: -119px;
+                            }
+                            .sc iframe {
+                                width: 100%;
+                                height: 26vh;
+                                margin-left: -119px;
+                            }
                         }
                         
                         @media(max-width:360px) {
@@ -871,5 +881,15 @@
                             }
                             .last button {
                                 margin-left: 3rem;
+                            }
+                            .fs iframe {
+                                width: 100%;
+                                height: 26vh;
+                                margin-left: -110px;
+                            }
+                            .sc iframe {
+                                width: 100%;
+                                height: 26vh;
+                                margin-left: -110px;
                             }
                         }
